@@ -25,7 +25,7 @@ module.exports = {
         icons: [
           {
             src: '/logo.jpg',
-            sizes: '372x372',
+            sizes: '758x758',
             type: 'image/jpg'
           }
         ]
