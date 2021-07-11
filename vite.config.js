@@ -26,9 +26,9 @@ module.exports = {
         display: 'minimal-ui',
         icons: [
           {
-            src: '/logo.jpg',
+            src: '/logo.png',
             sizes: '758x758',
-            type: 'image/jpg'
+            type: 'image/png'
           }
         ]
       }
