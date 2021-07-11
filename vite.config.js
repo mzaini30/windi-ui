@@ -20,7 +20,7 @@ module.exports = {
   },
   plugins: [
     viteMainJs(),
-    WindiCSS(),
+    // WindiCSS(),
     VitePWA({
       manifest: {
         display: 'minimal-ui',
