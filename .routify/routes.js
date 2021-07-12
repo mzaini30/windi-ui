@@ -1,11 +1,11 @@
 
 /**
  * @roxi/routify 2.18.0
- * File generated Mon Jul 12 2021 10:11:29 GMT+0800 (Waktu Indonesia Tengah)
+ * File generated Mon Jul 12 2021 16:05:23 GMT+0800 (Waktu Indonesia Tengah)
  */
 
 export const __version = "2.18.0"
-export const __timestamp = "2021-07-12T02:11:29.658Z"
+export const __timestamp = "2021-07-12T08:05:23.224Z"
 
 //buildRoutes
 import { buildClientTree } from "@roxi/routify/runtime/buildRoutes"
@@ -48,6 +48,31 @@ export const _tree = {
       "path": "/box",
       "id": "_box",
       "component": () => import('../src/pages/box.svelte').then(m => m.default)
+    },
+    {
+      "isFile": true,
+      "isDir": false,
+      "file": "button.svelte",
+      "filepath": "/button.svelte",
+      "name": "button",
+      "ext": "svelte",
+      "badExt": false,
+      "absolutePath": "/home/zen/personal-projects/windi-ui/src/pages/button.svelte",
+      "importPath": "../src/pages/button.svelte",
+      "isLayout": false,
+      "isReset": false,
+      "isIndex": false,
+      "isFallback": false,
+      "isPage": true,
+      "ownMeta": {},
+      "meta": {
+        "recursive": true,
+        "preload": false,
+        "prerender": true
+      },
+      "path": "/button",
+      "id": "_button",
+      "component": () => import('../src/pages/button.svelte').then(m => m.default)
     },
     {
       "isFile": true,

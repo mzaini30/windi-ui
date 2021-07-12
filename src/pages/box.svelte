@@ -12,15 +12,16 @@
 	<input type="submit" class='bg-green-400 p-2 px-4 rounded-lg text-white' value='Login'/>
 </div>`}></Isi>
 <Isi kode={`<div class="bg-white border shadow-md rounded p-4">
-	<div class='flex'>
+	<div class='flex gap-3'>
 		<div>
 			<img src="/kotak.png" alt=""/>
 		</div>
 		<div>
 			<div class="">
-				<span class="">John Smith</span>
-				<span class="">@johnsmith 31m</span>
+				<span class="font-bold">John Smith</span>
+				<span class="text-sm text-gray-700">@johnsmith 31m</span>
 			</div>
+			<div class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.</div>
 		</div>
 	</div>
 </div>`}></Isi>
