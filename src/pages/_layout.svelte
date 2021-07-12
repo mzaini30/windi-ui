@@ -4,7 +4,7 @@
   <div class="p-4">
     <div class="mb-3">
       {#each daftarIsi as x}
-        <a href={x.link} class="p-3 block bg-gray-100 hover:bg-green-300">{x.judul}</a>
+        <a href={x.link} class="p-3 block bg-gray-100 hover:bg-green-300" class:active={$isActive(x.link)}>{x.judul}</a>
       {/each}
     </div>
     <a href='https://github.com/mzaini30/windi-ui' class="p-3 block bg-gray-100 hover:bg-green-300">Github</a>
@@ -16,7 +16,15 @@
   </div>
 </div>
 
+<style>
+  .active {
+    @apply bg-green-200 hover:bg-green-300;
+  }
+</style>
+
 <script>
+  import {isActive} from '@roxi/routify'
+
   const daftarIsi = [
     {judul: 'Box', link: '/box'},
     {judul: 'Button', link: '/button'},

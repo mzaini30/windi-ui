@@ -17,14 +17,33 @@
 <button class="bg-white p-2 px-4 underline rounded hover:bg-gray-200 cursor-pointer inline-block">Text</button>
 <button class="bg-white p-2 px-4 rounded text-blue-700 hover:underline cursor-pointer inline-block">Ghost</button>`}></Isi>
 
-<Isi kode={`<div class="buttons">
-  <button class="bg-white p-2 px-4 rounded border cursor-pointer inline-block">Primary</button>
-  <button class="button is-link">Link</button>
+<Isi kode={`<div class="mb-3">
+  <button class="bg-teal-500 text-white p-2 px-4 rounded border cursor-pointer inline-block">Primary</button>
+  <button class="bg-indigo-500 text-white p-2 px-4 rounded border cursor-pointer inline-block">Link</button>
 </div>
 
-<div class="buttons">
-  <button class="button is-info">Info</button>
-  <button class="button is-success">Success</button>
-  <button class="button is-warning">Warning</button>
-  <button class="button is-danger">Danger</button>
+<div class="mb-3">
+  <button class="bg-blue-500 text-white p-2 px-4 rounded border cursor-pointer inline-block">Info</button>
+  <button class="bg-green-500 text-white p-2 px-4 rounded border cursor-pointer inline-block">Success</button>
+  <button class="bg-yellow-500 text-white p-2 px-4 rounded border cursor-pointer inline-block">Warning</button>
+  <button class="bg-red-500 text-white p-2 px-4 rounded border cursor-pointer inline-block">Danger</button>
 </div>`}></Isi>
+
+<Isi kode={`<div class="mb-3">
+  <button class="bg-teal-200 text-teal-700 p-2 px-4 rounded border cursor-pointer inline-block">Primary</button>
+  <button class="bg-indigo-200 text-indigo-700 p-2 px-4 rounded border cursor-pointer inline-block">Link</button>
+</div>
+
+<div class="mb-3">
+  <button class="bg-blue-200 text-blue-700 p-2 px-4 rounded border cursor-pointer inline-block">Info</button>
+  <button class="bg-green-200 text-green-700 p-2 px-4 rounded border cursor-pointer inline-block">Success</button>
+  <button class="bg-yellow-200 text-yellow-700 p-2 px-4 rounded border cursor-pointer inline-block">Warning</button>
+  <button class="bg-red-200 text-red-700 p-2 px-4 rounded border cursor-pointer inline-block">Danger</button>
+</div>`}></Isi>
+
+<Isi kode={`<button class="text-gray-700 p-2 px-4 rounded border hover:border-gray-400 cursor-pointer inline-block mb-1">Outlined</button>
+<button class="text-teal-500 border-teal-500 hover:(bg-teal-500 text-white) p-2 px-4 rounded border cursor-pointer inline-block mb-1">Outlined</button>
+<button class="text-indigo-500 border-indigo-500 hover:(bg-indigo-500 text-white) p-2 px-4 rounded border cursor-pointer inline-block mb-1">Outlined</button>
+<button class="text-blue-500 border-blue-500 hover:(bg-blue-500 text-white) p-2 px-4 rounded border cursor-pointer inline-block mb-1">Outlined</button>
+<button class="text-green-500 border-green-500 hover:(bg-green-500 text-white) p-2 px-4 rounded border cursor-pointer inline-block mb-1">Outlined</button>
+<button class="text-red-500 border-red-500 hover:(bg-red-500 text-white) p-2 px-4 rounded border cursor-pointer inline-block mb-1">Outlined</button>`}></Isi>
