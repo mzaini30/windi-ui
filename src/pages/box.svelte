@@ -16,6 +16,11 @@
 		<div>
 			<img src="/kotak.png" alt=""/>
 		</div>
-		<div></div>
+		<div>
+			<div class="">
+				<span class="">John Smith</span>
+				<span class="">@johnsmith 31m</span>
+			</div>
+		</div>
 	</div>
 </div>`}></Isi>
