@@ -2,7 +2,7 @@
 	export let kode
 </script>
 
-<div class="grid grid-cols-2 gap-3">
+<div class="grid grid-cols-2 mb-3 gap-3">
 	<div class="">
 		{@html kode}
 	</div>
