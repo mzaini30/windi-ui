@@ -28,5 +28,6 @@
   const daftarIsi = [
     {judul: 'Box', link: '/box'},
     {judul: 'Button', link: '/button'},
+    {judul: 'Notification', link: '/notification'},
   ]
 </script>

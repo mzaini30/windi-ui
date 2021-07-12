@@ -1,11 +1,11 @@
 
 /**
  * @roxi/routify 2.18.0
- * File generated Mon Jul 12 2021 17:06:23 GMT+0800 (Waktu Indonesia Tengah)
+ * File generated Mon Jul 12 2021 17:09:11 GMT+0800 (Waktu Indonesia Tengah)
  */
 
 export const __version = "2.18.0"
-export const __timestamp = "2021-07-12T09:06:23.350Z"
+export const __timestamp = "2021-07-12T09:09:11.351Z"
 
 //buildRoutes
 import { buildClientTree } from "@roxi/routify/runtime/buildRoutes"
@@ -123,6 +123,31 @@ export const _tree = {
       "path": "/Isi",
       "id": "_Isi",
       "component": () => import('../src/pages/Isi.svelte').then(m => m.default)
+    },
+    {
+      "isFile": true,
+      "isDir": false,
+      "file": "notification.svelte",
+      "filepath": "/notification.svelte",
+      "name": "notification",
+      "ext": "svelte",
+      "badExt": false,
+      "absolutePath": "/home/zen/personal-projects/windi-ui/src/pages/notification.svelte",
+      "importPath": "../src/pages/notification.svelte",
+      "isLayout": false,
+      "isReset": false,
+      "isIndex": false,
+      "isFallback": false,
+      "isPage": true,
+      "ownMeta": {},
+      "meta": {
+        "recursive": true,
+        "preload": false,
+        "prerender": true
+      },
+      "path": "/notification",
+      "id": "_notification",
+      "component": () => import('../src/pages/notification.svelte').then(m => m.default)
     }
   ],
   "isLayout": true,
