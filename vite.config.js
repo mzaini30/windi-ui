@@ -1,7 +1,6 @@
 const { appConfig } = require('./package.json')
 const viteMainJs = require('vite-main-js')
 const { svelte } = require('@sveltejs/vite-plugin-svelte')
-const {VitePWA} = require('vite-plugin-pwa')
 const WindiCSS = require('vite-plugin-windicss')
 const { port } = appConfig
 const production = process.env.NODE_ENV === 'production'
@@ -21,18 +20,6 @@ module.exports = {
   plugins: [
     viteMainJs(),
     WindiCSS.default(),
-    VitePWA({
-      manifest: {
-        display: 'minimal-ui',
-        icons: [
-          {
-            src: '/logo.png',
-            sizes: '758x758',
-            type: 'image/png'
-          }
-        ]
-      }
-    }),
     svelte({
       preprocess: [],
       emitCss: true,
