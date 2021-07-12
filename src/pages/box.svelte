@@ -12,7 +12,7 @@
 	<input type="submit" class='bg-green-400 p-2 px-4 rounded-lg text-white' value='Login'/>
 </div>`}></Isi>
 <Isi kode={`<div class="bg-white border shadow-md rounded p-4">
-	<div class='grid'>
+	<div class='flex'>
 		<div>
 			<img src="/kotak.png" alt=""/>
 		</div>
